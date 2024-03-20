@@ -5,6 +5,9 @@ import inquirer from "inquirer";
 
 const randomNum = Math.floor(Math.random()*11)
 // console.log(randomNum)
+
+console.log("Number Guessing game, made by 'Ghulam Qadir'")
+
 const answers = await inquirer.prompt([
   {
     name: "userGuessedNumber",
